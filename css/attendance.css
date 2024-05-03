@@ -1,0 +1,223 @@
+ 
+
+#navbar-container{
+    width:100vw;
+    width:100vmax;
+    background-image: linear-gradient(60deg,rgb(134, 226, 134),rgb(115, 199, 235));
+    position:absolute;
+    top:0;
+    border:1px solid linear-gradient(60deg,rgb(134, 226, 134),rgb(115, 199, 235));
+    
+    height:7vh;
+
+}
+
+
+.dashboard-nav {
+    width:100vw;
+    width:100vmax;
+    
+    color: white;
+    font-family: Arial, sans-serif;
+    
+}
+
+.dashboard-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    padding-bottom:5px;
+}
+
+.dashboard-nav ul li {
+    margin-right: 20px;
+    background: transparent;
+    padding:2px;
+    border-radius:5px;
+}
+
+.dashboard-nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding:2px;
+}
+
+.dashboard-nav ul li a:hover{
+    color: rgb(8, 174, 127);
+    background-color:white;
+    padding:10px 5px;
+    border-radius:10px;
+}
+
+.active{
+    background-color:white;
+    
+    color:rgb(8, 174, 127) !important;
+    padding:10px 5px !important;
+    border-radius:10px;
+
+}
+#signout{
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#attendance-take{
+position:absolute;
+left:60vw;
+top:10vh;
+width:30vw;
+
+}
+
+.opentab{
+    width:200px;
+    height:50px;
+    border-radius:5px;
+    background-image:linear-gradient(90deg,rgb(40, 219, 97),rgb(48, 88, 173),rgb(154, 57, 215));
+    border:1px solid transparent;
+    color:white;
+
+}
+
+.success-message {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    margin-top: 400px; 
+    text-align: center; 
+    z-index:2;
+}
+
+/* Styles for Error Message */
+.error-message {
+    background-color: #f44336; 
+    color: white; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    margin-top: 400px;
+    text-align: center; 
+}
+
+
+
+#attendance_table{
+    position:absolute;
+    top:10vh;
+    left:10vw;
+    align-items:center;
+    align-content: center;
+    background-image: linear-gradient(circle, #00A8E8, #FF5733);
+}
+table{
+    align-items: center;
+    width: 100%; 
+            border-collapse: collapse; 
+            margin-top: 20px; 
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+  } 
+thead {
+	background-color: #333;
+	color: white;
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 2%;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #eee;
+  }
+
+#dateform{
+    align-items: center;
+
+}
+
+.card-studentst{
+width: 10vw;
+height: 15vh;
+max-width: 10vmax;
+max-height: 10vmax;
+background-color: #fff;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+padding:5px;
+top:20px;
+margin:30px;
+}
+
+.card-studentst p{
+    text-align:center;
+    color:white;
+
+}
+
+.nos{
+
+top:0px;
+left:100px;
+text-align:center !important;
+font-weight:800;
+font-size:40px;
+padding:0;
+color:white;
+}
+
+.attendancemetrics{
+    display:flex;
+    justify-content: space-between; 
+    padding:20px;
+}
+
+
+#show{
+    background:linear-gradient(rgb(225, 116, 116),rgb(250, 112, 112));
+    border-radius:5px;
+    border:1px solid transparent;
+color:white;
+padding:3px;
+padding-left:5px;
+margin-left:325px;
+}
+
+.present{
+    background-color:green;
+    color:white;
+    font-weight:400;
+    
+}
+.absent{
+    background-color:red;
+    color:white;
+    font-weight:400;
+    
+}
+
+#studt{
+    background-color:rgb(51, 134, 207);
+}
+#studp{
+    background-color:rgb(39, 199, 87);
+}
+#studa{
+    background-color:rgb(232, 77, 63);
+}
+
+#submit1{
+    position:absolute;
+    top:87px;
+    right:0vw;
+
+}

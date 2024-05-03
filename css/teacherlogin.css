@@ -1,0 +1,145 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    animation: theme 21s linear infinite;
+    &:after,
+    &:before {
+    content: '';
+    display: block;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    
+    background: rgba(0,0,0,0.05);
+    animation: background 90s linear infinite;
+}
+
+&:after {
+    left: 15vw;
+    width: 100vw; 
+    height: 100vh;
+    width: 100vmax;
+    height: 100vmax;
+}
+
+&:before {
+    right: 15vw;
+    width: 90vw; 
+    height: 90vh;
+    width: 90vmax;
+    height: 90vmax;
+    animation-delay:-30s;
+    animation-direction: reverse;
+}
+}
+
+@keyframes theme {
+0% {
+    background: #46ef81;
+}
+
+16% {
+    background: #E46653;
+    
+}
+
+33% {
+    background: #ef900c;
+    
+}
+
+50% {
+    background: #2861e7;
+}
+
+66% {
+    background: #03bcd1;
+}    
+
+83% {
+    background: #35cec4;
+}
+
+100% {
+    background: #46ef81;
+}
+}
+
+@keyframes background {
+0% {
+    transform: rotate(0deg);
+}
+
+100% {
+    transform: rotate(360deg);
+}
+}
+
+.container-fluid{
+    width:100vw;
+    height:100vh;
+}
+.heading-1 {
+    padding-top: 10px;
+    margin-top:20px;
+    text-align: center;
+    font-size:50px;
+    font-weight:800;
+}
+.label-text{
+    margin-top:30px;
+    color:green;
+    font-weight: 600;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top:40px;
+    padding: 20px;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px rgba(0, 0, 255, 0.1);
+    background:rgba(255,255,255,0.4);
+}
+
+label {
+    display:block;
+    margin-bottom: 20px;
+}
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.required {
+    color: red;
+}
+button {
+    padding: 10px 20px;
+    background-color: #0dff00 !important;
+    color: white;
+    border: 1px solid transparent !important;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button[type="submit"]{
+    margin-left:200px;
+}
+.label-text{
+    text-align:center;
+}
+.sign-up{
+    padding-top:20px;
+}
+.sign-up a{
+    text-decoration:none;
+    color:white;
+    background-color: rgb(14, 227, 159);
+    padding:10px;
+    border-radius:5px;
+}

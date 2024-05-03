@@ -1,0 +1,260 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+#newfaculty{
+    position:absolute;
+    left:1200px;
+    width:200px;
+    height:200px;
+    top:55px;
+
+} 
+
+#new-faculty-button{
+    top:0;
+    width:130px;
+    height:40px;
+    color:white;
+    background:linear-gradient(60deg,rgb(115, 199, 235),rgb(134, 226, 134));
+    border-radius:5px;
+    margin-bottom:5px;
+    border:1px transparent;
+    align-items: left;
+}
+
+#navbar-container{
+    width:100vw;
+    width:100vmax;
+    background: linear-gradient(60deg,rgb(134, 226, 134),rgb(115, 199, 235));
+    z-index:0;
+    top:0;
+    position:absolute;
+    border:1px solid linear-gradient(60deg,rgb(134, 226, 134),rgb(115, 199, 235));
+    height:7vh;
+}
+
+.new-faculty-form{
+    width:40vw;
+    height:90vh;
+    max-width: 40vmax;
+    max-height:90vmax;
+    z-index: 9;
+    display: none;
+    position:fixed;
+    left: 30vw;
+    top:10vh;
+    background:linear-gradient(60deg,rgb(134, 226, 134),rgb(115, 199, 235)) ;
+    padding: 20px;
+    overflow-y: auto;
+    color:white;
+}
+
+#facultyadd-form{
+    color:white;
+    background:transparent ;
+}
+
+.dashboard-nav {
+    width:100vw;
+    width:100vmax;
+    
+    color: white;
+    font-family: Arial, sans-serif;
+    
+}
+
+.dashboard-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    padding-bottom:5px;
+}
+
+.dashboard-nav ul li {
+    margin-right: 20px;
+    background: transparent;
+    padding:2px;
+    border-radius:5px;
+}
+
+.dashboard-nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding:2px;
+}
+
+#signout{
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#show_user{
+    top:10vh;
+    position: absolute;
+    left:10vh;
+}
+
+.heading-1{
+    padding-top: 10px;
+    margin-top:20px;
+    text-align: center;
+    font-size:50px;
+    font-weight:800;
+    color:white;
+}
+
+.heading-4{
+    text-align: right;
+    color:white;
+    font-weight: 400;
+    padding:10px;
+}
+
+.dashboard-nav ul li a:hover{
+    color: rgb(8, 174, 127);
+    background-color:white;
+    padding:10px 5px;
+    border-radius:10px;
+}
+
+.active{
+    background-color:white;
+    color:rgb(8, 174, 127) !important;
+    padding:10px 5px !important;
+    border-radius:10px;
+}
+
+.table-heading{
+    text-align: center;
+}
+
+.table-change{
+    color:white;
+    border-radius: 5px;
+    border:1px solid white;
+    cursor:pointer;
+}
+
+#delete{
+    background-color: red;
+}
+
+#edit{
+    background-color: rgb(198, 198, 30);
+}
+
+form{
+    align-items: left;
+}
+
+#search-form{
+    position: relative;
+    left:5vw;
+}
+
+#search-bar{
+    width:85%;
+    align-items:center !important ;
+}
+
+#search{
+    position:absolute;
+    border: none;
+    width:40px;
+    background:transparent;
+    height:40px;
+    top:0px;
+    left:1020px;
+    z-index:2;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #797a7b;
+}
+
+#filter-btn{
+    width:5vw;
+    max-width: 5vmax;
+    height:38px;
+    position:absolute;
+    left:0px;
+    top:55px;
+    border-radius:5px;
+    color:white;
+    background:linear-gradient(60deg,rgb(115, 199, 235),rgb(134, 226, 134));
+    border:1px transparent;
+    align-items: left;
+}
+
+#filter-form{
+    z-index:9;
+    display:none;
+    width:5vw;
+    max-width: 5vmax;
+    height:38px;
+    position:absolute;
+    left:0px;
+    top:90px;
+}
+
+#go{
+    position:absolute;
+    width:20px;
+    height:20px;
+    top:5px;
+    left:-40px;
+    background: transparent;
+    border:0.5px solid transparent;
+}
+
+#filter{
+    padding: 10px 20px;
+    background-color: #3c76b4;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#reset{
+    padding: 10px 20px;
+    background-color:rgb(255, 47, 0);
+    margin-left:50px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#nf{
+    align-content: center;
+    font-size:2rem;
+    font-weight:200;
+    color:red;
+}
+
+.success-message {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 15px; /* Padding for the message */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 10px; /* Margin from the top of the page */
+    text-align: center; /* Center align the text */
+}
+
+/* Styles for Error Message */
+.error-message {
+    background-color: #f44336; /* Red background color */
+    color: white; /* White text color */
+    padding: 10px 15px; /* Padding for the message */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 10px; /* Margin from the top of the page */
+    text-align: center; /* Center align the text */
+}

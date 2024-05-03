@@ -1,0 +1,202 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(60deg,rgb(134, 226, 134),rgb(115, 199, 235));
+}
+
+
+#filter-button{
+    position:absolute;
+    left:1200px;
+    width:200px;
+    height:200px;
+    top:55px;
+
+}
+    
+
+#hamburg{
+    top:0;
+    width:70px;
+    height:40px;
+    color:white;
+    background:linear-gradient(60deg,rgb(115, 199, 235),rgb(134, 226, 134));
+    border-radius:5px;
+    margin-bottom:5px;
+    border:1px transparent;
+    align-items: left;
+}
+#navbar-container{
+    width:100vw;
+    width:100vmax;
+    background: linear-gradient(60deg,rgb(134, 226, 134),rgb(115, 199, 235));
+    z-index:0;
+    top:0;
+    position:absolute;
+    border:1px solid linear-gradient(60deg,rgb(134, 226, 134),rgb(115, 199, 235));
+    height:7vh;
+
+}
+.sidebar{
+    max-width: 20vw;
+    z-index: 1;
+    display: none;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    top:0;
+    background:linear-gradient(-60deg,rgb(134, 226, 134),rgb(115, 199, 235)) ;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+#filter-form{
+    color:white;
+    background:transparent ;
+
+}
+.dashboard-nav {
+    width:100vw;
+    width:100vmax;
+    
+    color: white;
+    font-family: Arial, sans-serif;
+    
+}
+
+.dashboard-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    padding-bottom:5px;
+}
+
+.dashboard-nav ul li {
+    margin-right: 20px;
+    background: transparent;
+    padding:2px;
+    border-radius:5px;
+}
+
+.dashboard-nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding:2px;
+}
+
+#signout{
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#show_user{
+    top:7vh;
+    position: fixed;
+    left:10vh;
+    margin:0;
+}
+.heading-1{
+    padding-top: 10px;
+    margin-top:20px;
+    text-align: center;
+    font-size:50px;
+    font-weight:800;
+    color:white;
+}
+.heading-4{
+    text-align: right;
+    color:white;
+    font-weight: 400;
+    padding:10px;
+}
+
+.dashboard-nav ul li a:hover{
+    color: rgb(8, 174, 127);
+    background-color:white;
+    padding:10px 5px;
+    border-radius:10px;
+}
+
+.active{
+    background-color:white;
+    
+    color:rgb(8, 174, 127) !important;
+    padding:10px 5px !important;
+    border-radius:10px;
+
+}
+
+
+.table-heading{
+    text-align: center;
+}
+
+.table-change{
+    
+    color:white;
+    border-radius: 5px;
+    border:1px solid white;
+    cursor:pointer;
+}
+#delete{
+    background-color: red;
+}
+#edit{
+    background-color: rgb(198, 198, 30);
+}
+
+form{
+    align-items: left;
+}
+#search-bar{
+    width:90%;
+    align-items: left;
+}
+#search{
+    position:absolute;
+    border: none;
+    width:40px;
+    background:transparent;
+    height:40px;
+    top:55px;
+    left:1120px;
+    z-index:2;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #96989a;
+}
+
+
+#filter{
+    padding: 10px 20px;
+    background-color: #3c76b4;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#reset{
+    padding: 10px 20px;
+    background-color:rgb(255, 47, 0);
+    margin-left:50px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+        #nf{
+
+            align-content: center;
+            font-size:2rem;
+            font-weight:200;
+            color:red;
+
+        }
+    
